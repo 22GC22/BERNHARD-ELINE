@@ -1,0 +1,12 @@
+'' Working navbar at the top ''
+'' Working Carousel component''
+"Text Animation in carousel"
+"Buttons in carousel with mouseover and mouse leave function in carousel "
+"Card component with custom text working buttons"
+Working form with sending data to email and saving form data without backend
+Footer section with copyright and social media links
+Image animation in one section
+"Responsive website which is mobile compatible"
+"Favicon that works on all browsers" 
+Upload final project on GitHub
+Update live project url link in Google sheet
