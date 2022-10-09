@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bernhard & Eline</title>
+    <script src="https://kit.fontawesome.com/6af043243c.js" crossorigin="anonymous"></script>
     <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
-    
+    <script src="form.js"></script>
     <!-- Bootsrap and JS bundle -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <!-- JQUERY -->
@@ -142,6 +143,7 @@
             </div>
           </div>
         </div>
+      </section>
         <section class="categories">
           <div class="cat">
           <div id="men-heading" class="cat-heading"><H1>MEN COLLECTION</H1></div>
@@ -213,6 +215,8 @@
             </div>
           </div>
           </div>
+        </section>
+          <section class="categories">
         <div class="cat">
             <div id="perfume-heading" class="cat-heading"><h1>PERFUMES</h1></div>
             <br>
@@ -282,62 +286,82 @@
                 </div>
               </div>
             </div>
+        </div>
       </section>
 
-      <section class="footer-section">
-        <footer class="footer">
-            <div class="footer__addr">
-              <h1 class="footer__logo">Bernhard & Eline</h1>
-                  
-              <h2>Contact</h2>
-              
-              <address>
-                G4 CHITKARA UNIVERSITY<br>
-                    
-                <a class="footer__btn" href="mailto:example@gmail.com">Email Us</a>
-              </address>
+      <div class="container">
+        <footer>
+          <div class="row">
+            <div class="col-6 col-md-2 mb-3">
+              <h5>WOMEN</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Fall Collection</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Winter collection</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Timeless Pieces</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Statement Piece</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">All</a></li>
+              </ul>
             </div>
-            
-            <ul class="footer__nav">
-              <li class="nav__item">
-                <h2 class="nav__title">Shop </h2>
-          
-                <ul class="nav__ul">
-                  <li>
-                    <a href="#">Shop</a>
-                  </li>
-          
-                  <li>
-                    <a href="#">Visit</a>
-                  </li>
-                      
-                </ul>
-              </li>
-              
-              
-              <li class="nav__item">
-                <h2 class="nav__title">Legal</h2>
-                
-                <ul class="nav__ul">
-                  <li>
-                    <a href="#">Privacy Policy</a>
-                  </li>
-                  
-                  <li>
-                    <a href="#">Terms of Use</a>
-                  </li>
-                  
-                  <li>
-                    <a href="#">Sitemap</a>
-                  </li>
-                </ul>
-              </li>
+      
+            <div class="col-6 col-md-2 mb-3">
+              <h5>MEN</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Fall Collection</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Winter collection</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Timeless Pieces</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Statement Piece</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">All</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-6 col-md-2 mb-3">
+              <h5>PERFUMES</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">DIOR</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">CHANEL</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">NARCISO</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">ESCADA</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">L'IMPERATRICE</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-md-5 offset-md-1 mb-3">
+              <!-- <form> -->
+                <h5>Subscribe to our newsletter</h5>
+                <p>Weekly digest of the new and exciting fashion pieces from us!</p>
+                <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                  <input id="email"  type="email" class="form-control" placeholder="Email address">
+                  <input id="name" type="text" class="form-control" placeholder="Full Name">
+                  <button class="btn btn-outline-danger" type="button" onclick="sendMail()">Subscribe</button>
+                </div>
+              <!-- </form> -->
+            </div>
+          </div>
+      
+          <div class="d-flex flex-column flex-sm-row justify-content-between border-top">
+            <p>© 2022 Bernhard & Eline, Inc. All rights reserved.</p>
+            <ul class="list-unstyled d-flex">
+              <li class="ms-3"><a class="link-dark" href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a></li>
+              <li class="ms-3"><a class="link-dark" href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></li>
+              <li class="ms-3"><a class="link-dark" href="https://www.facebook.com/"><i class="fa-brands fa-meta"></i></a></li>
             </ul>
-            
+          </div>
+        </footer>
+      </div>
+      <script type="text/javascript"
+              src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+      </script>
+      <script type="text/javascript">
+        (function(){
+            emailjs.init("0cP84HQr5rZkNc8v9");
+        })();
+      </script>
+      <!-- <script>
+        console.log(document.getElementById("name"));
+      </script> -->
 
-          </footer>
-      </section>
       <script>
+        
         $(function () {
           $(document).scroll(function () {
             var $nav = $(".navbar");
